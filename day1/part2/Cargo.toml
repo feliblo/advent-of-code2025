@@ -1,0 +1,11 @@
+[package]
+name = "day1"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+miette = "7.6.0"
+nom = "8.0.0"
+rstest = "0.26.1"
+test-log = "0.2.19"
+tracing = "0.1.43"
