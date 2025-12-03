@@ -1,6 +1,14 @@
 use std::fs::File;
 use std::io::{self, BufRead};
+use s
 use std::path::Path;
+
+#[strum::IntoStaticStr]
+enum Direction {
+    Left,
+    Right,
+}
+
 fn main() {
     let mut start: i32 = 50;
     let file_path = Path::new("input.txt");
